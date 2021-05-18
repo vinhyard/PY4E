@@ -1,7 +1,7 @@
 hours = input('Enter Hours: ')
 rate = input('Enter Rate: ')
 float(1.5)
-if hours == int or rate == int:
+try:
     if float(hours) > 40.0:
         rate1 = float(hours) - 40.0
         rate4 = float(rate) * 1.5
@@ -11,5 +11,5 @@ if hours == int or rate == int:
     else:
         pay = float(hours) * float(rate)
         print(pay)
-else:
-    print('Please Input a Number')
+except:
+    print('Please Enter Number')

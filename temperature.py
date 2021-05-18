@@ -5,4 +5,4 @@ float(celcius2)
 celcius1 = celcius * celcius2
 fahrenheit = float(celcius1) + float(32)
 float(fahrenheit)
-print(fahrenheit)
+print(fahrenheit, 'degrees Fahrenheit')
